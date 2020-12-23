@@ -1,0 +1,56 @@
+Hams_Pos Inventory Management Project(POS)
+##########################################
+
+Basic Module:
+****************************************************
+    1. User Management
+    2. User Profile Management
+    3. Suppliers Management
+    4. Unit Management
+    5. Product Management
+    6. Category Management
+
+Core Module
+**************************************
+    1. Customer Management
+##############################
+        1. View Customers
+        2. Credit Customers report
+        3. Paid Customers report
+
+    2. Purchase Management
+##############################
+        1. Add Purchase
+        2. View Purchase
+        3. Multiple Product Add by Ajx
+        4. Approval Purchase
+        5. Daily Purchase Report
+
+    3. Invoice Management
+#############################
+        1. View Invoice
+        2. Add Invoice
+        3. Approve Invoice
+        4. Print Invoice
+        5. Daily Invoice Report
+
+    4. Stock Management
+#############################
+        1. Stock Report
+        2. Supplier and Product Wise Stock Report
+
+5. Others:
+*****************
+1. Notify.js
+2. Select2
+3. Sweetalert
+4. DatePicker
+5. DB:Transaction Laravel
+3fe93938/
+
+
+
+
+
+
+

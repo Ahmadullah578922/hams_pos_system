@@ -1,0 +1,29 @@
+1. copy build, docx, plugins, dist folder to laravel project public-backend folder from bootstrap template.
+2. copy the static dashboard index.html to laravel project resources-views-backend-layouts folder
+and rename to home.blade.php
+3.separet files as like head, header,footer
+4){{asset('/backend')}}/ css, js,img link
+{{asset('/public/backend')}}/ css, js,img link
+5) {{ Auth::user()->name }} Username show  command
+6) logout customization. follow app.blade.php code
+7) Blalding
+
+ROUTE AND CONTROLLER
+******************************************
+1) Route::prefix('users')->group(function(){
+
+    Route::get('/view', 'Backend\UserController@view')->name('users.view');
+    Route::get('/add', 'Backend\UserController@add')->name('users.add');
+    Route::get('/store', 'Backend\UserController@store')->name('users.store');
+    Route::get('/edit/{id}', 'Backend\UserController@edit')->name('users.edit');
+    Route::post('/update/{id}', 'Backend\UserController@update')->name('users.update');
+    Route::post('/destroy/{id}', 'Backend\UserController@destroy')->name('users.destroy');
+});
+2) Controller: php artisan make:controller Backend/UserController
+3)  <a href=" {{url('/')}}"  target="_blank" class="nav-link">
+            <a href=" {{url('/')}}" class="nav-link">
+                <i class="nav-icon fas fa-th"></i>
+                <p>Visit Site</p>
+            </a>
+        </li>
+4) Sidebar Change
